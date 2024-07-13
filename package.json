@@ -1,0 +1,15 @@
+{
+  "name": "image-carousel",
+  "version": "1.0.0",
+  "description": "Image carousel to use in future projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
