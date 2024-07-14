@@ -7,11 +7,13 @@
     overflow: hidden;
 
 }
-#slides img {
+.slides img {
     width: 100%;
     display: none;
 }
-
+img.displaySlide {
+    display: block;
+}
 
 .arrows {
     justify-content: space-between;
