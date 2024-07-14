@@ -13,6 +13,10 @@ function initializeSlider() {
 }
 function showImage (index) {
 
+    slides.forEach(slide => {
+        slide.classList.remove("displaySlide");
+    });
+    slides[imageIndex].classList.add("displaySlide");
 }
 function prevSlide () {
 
