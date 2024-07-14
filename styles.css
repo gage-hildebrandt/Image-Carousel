@@ -1,9 +1,18 @@
 #container {
     display: flex;
     border: 2px solid black;
-    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
 
 }
+#slides img {
+    width: 100%;
+    display: none;
+}
+
+
 .arrows {
     justify-content: space-between;
 }
